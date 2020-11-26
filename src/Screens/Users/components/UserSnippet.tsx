@@ -7,6 +7,7 @@ import {RootState} from '../../../redux/rootReducer';
 import {shallowEqual, useSelector} from 'react-redux';
 import {responsiveHeight} from 'react-native-responsive-dimensions';
 import {Container} from 'native-base';
+import colors from '../../../styles/colors';
 
 interface Props {
   userId: string;
@@ -64,14 +65,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 2,
     paddingVertical: '1%',
-    backgroundColor: '#E7D4FF',
+    backgroundColor: colors.background,
     justifyContent: 'center',
     height: responsiveHeight(10),
     alignItems: 'flex-start',
   },
   name: {
     fontSize: 22,
-    color: '#000000',
+    color: colors.text,
   },
   city: {
     fontSize: 22,

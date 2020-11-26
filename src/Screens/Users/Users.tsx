@@ -7,6 +7,7 @@ import UserHeader from './components/UserHeader';
 import {UserSnippet} from './components/UserSnippet';
 import {SectionListData} from '../../utils/interfaces';
 import {RootState} from '../../redux/rootReducer';
+import colors from '../../styles/colors';
 
 const Users = () => {
   const dispatch = useDispatch();
@@ -51,14 +52,14 @@ export default Users;
 const styles = StyleSheet.create({
   section: {
     fontSize: 20,
-    backgroundColor: '#C08FFF',
+    backgroundColor: colors.list,
     paddingVertical: '2%',
     paddingLeft: '2.5%',
-    color: '#FFFFFF',
+    color: 'FFFFFF',
     fontWeight: 'bold',
   },
-  headerText: {fontSize: 18, fontWeight: 'bold', color: '#FFFFFF'},
+  headerText: {fontSize: 18, fontWeight: 'bold', color: colors.text},
   background: {
-    backgroundColor: '#E7D4FF',
+    backgroundColor: colors.background,
   },
 });

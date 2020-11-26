@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
   },
   field: {
     fontSize: 22,
-    color: '#000000',
+    color: colors.text,
     fontWeight: 'bold',
     paddingVertical: '1%',
     paddingHorizontal: '2%',
@@ -143,14 +143,14 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     paddingVertical: '5%',
     marginHorizontal: '2.5%',
-    color: '#000000',
+    color: colors.text,
     fontWeight: 'bold',
   },
   data: {
     fontSize: 22,
     paddingVertical: '1%',
     paddingHorizontal: '25%',
-    color: '#000000',
+    color: colors.text,
   },
   Header: {
     justifyContent: 'center',
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: '6%',
   },
   background: {
-    backgroundColor: '#E7D4FF',
+    backgroundColor: colors.background,
   },
   icon: {
     paddingHorizontal: '2%',

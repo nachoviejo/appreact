@@ -4,6 +4,7 @@ import React from 'react';
 import {StyleSheet, Text, TouchableOpacity} from 'react-native';
 import {Appbar} from 'react-native-paper';
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
+import colors from '../../styles/colors';
 
 const Credits = () => {
   const navigation = useNavigation();
@@ -49,6 +50,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: '23%',
   },
   background: {
-    backgroundColor: '#E7D4FF',
+    backgroundColor: colors.background,
   },
 });
